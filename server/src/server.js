@@ -7,7 +7,7 @@ import express from "express";
 import dbConnection from "./database/db.js";
 
 // Initialize Express app
-const app = express();
+export const app = express();
 
 const PORT = process.env.PORT || 3000;
 
