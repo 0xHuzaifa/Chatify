@@ -1,6 +1,6 @@
 import ApiError from "../utils/ApiError.js";
 
-export default errorHandler = (err, req, res, next) => {
+export default function errorHandler(err, req, res, next) {
   let error = err;
 
   // Log error for debugging
@@ -42,9 +42,9 @@ export default errorHandler = (err, req, res, next) => {
     success: false,
     statusCode: error.statusCode,
     message: error.message,
-    ...(process.env.NODE_ENV === "development" && { stack: error.stack }),
     ...(error.errors?.length > 0 && { errors: error.errors }),
+    ...(process.env.NODE_ENV === "development" && { stack: error.stack }),
   };
 
   res.status(error.statusCode).json(response);
-};
+}
