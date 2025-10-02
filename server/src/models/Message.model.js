@@ -14,6 +14,12 @@ const messageSchema = new Schema(
       required: true,
     },
 
+    receiver: {
+      type: Schema.Types.ObjectId,
+      ref: "User",
+      required: true,
+    },
+
     content: { text: String, mediaUrl: String },
 
     contentType: {
@@ -22,17 +28,11 @@ const messageSchema = new Schema(
       required: true,
     },
 
-    messageStatus: [
-      {
-        user: { type: Schema.Types.ObjectId, ref: "User", required: true },
-        state: {
-          type: String,
-          enum: ["sent", "delivered", "read"],
-          default: "sent",
-        },
-        readAt: { type: Date },
-      },
-    ],
+    messageStatus: {
+      type: String,
+      enum: ["sent", "delivered", "read"],
+      default: "sent",
+    },
 
     reactions: [
       {
