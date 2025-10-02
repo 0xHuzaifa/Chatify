@@ -10,39 +10,14 @@ const chatSchema = new Schema(
       },
     ],
 
-    chatType: {
-      type: String,
-      enum: ["private", "group"],
-      required: true,
-    },
-
-    groupName: {
-      // Only for group chats
-      type: String,
-    },
-
-    groupAvatar: {
-      // Only for group chats
-      type: String,
-    },
-
-    admins: [
-      // Only for group chats
-      {
-        type: Schema.Types.ObjectId,
-        ref: "User",
-      },
-    ],
-
     lastMessage: {
       type: Schema.Types.ObjectId,
       ref: "Message",
     },
 
     unreadCount: {
-      type: Map,
-      of: Number, // key: userId, value: unread count
-      default: {},
+      type: Number,
+      default: 0,
     },
   },
   { timestamps: true }
