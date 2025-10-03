@@ -2,19 +2,13 @@ import mongoose, { Schema } from "mongoose";
 
 const messageSchema = new Schema(
   {
-    conversation: {
+    chat: {
       type: Schema.Types.ObjectId,
       ref: "Chat",
       required: true,
     },
 
     sender: {
-      type: Schema.Types.ObjectId,
-      ref: "User",
-      required: true,
-    },
-
-    receiver: {
       type: Schema.Types.ObjectId,
       ref: "User",
       required: true,
@@ -40,9 +34,15 @@ const messageSchema = new Schema(
         emoji: String,
       },
     ],
+
+    readBy: [{ type: Schema.Types.ObjectId, ref: "User" }],
   },
   { timestamps: true }
 );
+
+messageSchema.index({ chat: 1, createdAt: -1 }); // sort messages by time
+messageSchema.index({ status: 1 }); // fast status based queries
+messageSchema.index({ "reactions.user": 1 }); // fast reaction queries
 
 const Message = mongoose.model("Message", messageSchema);
 export default Message;
