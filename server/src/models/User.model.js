@@ -1,23 +1,10 @@
-import mongoose, { Schema } from "mongoose";
+import { Schema } from "mongoose";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
+import getModelSafely from "../helpers/getModelSafely.js";
 
 const userSchema = new Schema(
   {
-    username: {
-      type: String,
-      lowercase: true,
-      required: true,
-      unique: true, // Enforces uniqueness; no need for separate index
-      trim: true,
-      minlength: [3, "Username must be at least 3 characters long"],
-      maxlength: [30, "Username must be less than 30 characters"],
-      match: [
-        /^[a-zA-Z0-9_]+$/,
-        "Username can only contain letters, numbers, and underscores",
-      ],
-    },
-
     fullName: {
       type: String,
       required: true,
@@ -45,7 +32,7 @@ const userSchema = new Schema(
       minlength: [8, "Password must be at least 8 characters long"],
     },
 
-    phoneSuffix: {
+    countryCode: {
       type: String,
       default: null,
     },
@@ -60,7 +47,7 @@ const userSchema = new Schema(
       },
     },
 
-    profilePicture: {
+    avatar: {
       type: String,
       default: null,
       validate: {
@@ -99,7 +86,7 @@ const userSchema = new Schema(
     },
 
     userVerification: {
-      type: mongoose.Schema.Types.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: "UserVerification",
       select: false,
     },
@@ -165,5 +152,5 @@ userSchema.methods.generateRefreshToken = function () {
   return refreshToken;
 };
 
-const User = mongoose.model("User", userSchema);
+const User = getModelSafely("User", userSchema);
 export default User;
