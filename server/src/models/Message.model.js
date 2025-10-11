@@ -94,6 +94,8 @@ messageSchema.pre(/^find/, function (next) {
   this.where({ deletedAt: null })
     .populate("sender", "fullName avatar")
     .populate("reactions.user", "fullName, avatar");
+
+  next();
 });
 
 // Method: Add reaction
