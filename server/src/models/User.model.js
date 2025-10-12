@@ -131,7 +131,7 @@ userSchema.pre("validate", function (next) {
 
 userSchema.methods.generateAccessToken = function () {
   const accessToken = jwt.sign(
-    { id: this._id, fullName: this.fullName, username: this.username },
+    { id: this._id, fullName: this.fullName },
     process.env.JWT_ACCESS_TOKEN_SECRET,
     {
       expiresIn: process.env.JWT_ACCESS_TOKEN_EXPIRY,
