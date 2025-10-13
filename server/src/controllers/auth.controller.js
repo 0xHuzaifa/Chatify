@@ -1,9 +1,8 @@
 import jwt from "jsonwebtoken";
 
 // Models
-import User from "../models/user.model.js";
+import User from "../models/User.model.js";
 import UserVerification from "../models/UserVerification.model.js";
-import Chat from "../models/Chat.model.js";
 
 // Utils
 import ApiError from "../utils/ApiError.js";
@@ -21,11 +20,7 @@ import verificationEmailTemplate from "../helpers/template/verificationEmail.tem
 
 const validateInput = (req) => {
   const errors = [];
-  const { username, fullName, email, phone, phoneSuffix, password } = req.body;
-
-  if (!username || username.trim().length < 3) {
-    errors.push("Username must be at least 3 characters long");
-  }
+  const { fullName, email, phone, countryCode, password } = req.body;
 
   if (!fullName || fullName.trim().length < 2) {
     errors.push("Full name must be at least 2 characters long");
@@ -35,9 +30,9 @@ const validateInput = (req) => {
     errors.push("Either email or phone number is required");
   }
 
-  // If phone is provided, phoneSuffix is required
-  if (phone && !phoneSuffix) {
-    errors.push("phoneSuffix is required when phone is provided");
+  // If phone is provided, countryCode is required
+  if (phone && !countryCode) {
+    errors.push("countryCode is required when phone is provided");
   }
 
   if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -48,9 +43,9 @@ const validateInput = (req) => {
     errors.push("Phone number must be exactly 10 digits");
   }
 
-  if (phoneSuffix && !/^\+?[0-9]{1,4}$/.test(phoneSuffix)) {
+  if (countryCode && !/^\+?[0-9]{1,4}$/.test(countryCode)) {
     errors.push(
-      "phoneSuffix must be a valid country calling code (e.g. +1, +44, or 1)"
+      "country code must be a valid country calling code (e.g. +1, +44, or 1)"
     );
   }
 
@@ -75,7 +70,7 @@ const validateInput = (req) => {
 
 // Register user
 export const register = asyncHandler(async (req, res) => {
-  const { username, fullName, email, phone, phoneSuffix, password } = req.body;
+  const { fullName, email, phone, countryCode, password } = req.body;
 
   // Validate input
   const validationErrors = validateInput(req);
@@ -84,10 +79,9 @@ export const register = asyncHandler(async (req, res) => {
   }
 
   // Check if user already exists
-  const phoneQuery = phone && phoneSuffix ? { phone, phoneSuffix } : null;
+  const phoneQuery = phone && countryCode ? { phone, countryCode } : null;
 
   const orQueries = [
-    { username: username.toLowerCase() },
     ...(email ? [{ email: email.toLowerCase() }] : []),
     ...(phoneQuery ? [phoneQuery] : []),
   ];
@@ -95,19 +89,15 @@ export const register = asyncHandler(async (req, res) => {
   const existingUser = await User.findOne({ $or: orQueries });
 
   if (existingUser) {
-    throw new ApiError(
-      409,
-      "User with this username, email, or phone already exists"
-    );
+    throw new ApiError(409, "User with this email or phone already exists");
   }
 
   // Create user
   const user = new User({
-    username: username.toLowerCase(),
     fullName,
     email: email?.toLowerCase(),
     phone,
-    phoneSuffix: phoneSuffix || null,
+    countryCode: countryCode || null,
     password,
   });
 
@@ -157,8 +147,8 @@ export const register = asyncHandler(async (req, res) => {
     const otp = generateOTP();
     verificationData.OTP = otp;
 
-    // include phoneSuffix in verification data for SMS flows
-    if (phoneSuffix) verificationData.phoneSuffix = phoneSuffix;
+    // include countryCode in verification data for SMS flows
+    if (countryCode) verificationData.countryCode = countryCode;
 
     const userVerification = new UserVerification(verificationData);
     await userVerification.save();
@@ -167,9 +157,9 @@ export const register = asyncHandler(async (req, res) => {
     user.userVerification = userVerification._id;
     await user.save();
 
-    // Send OTP via SMS (include suffix when sending)
+    // Send OTP via SMS (include countryCode when sending)
     try {
-      await createMessage(phoneSuffix ? `${phoneSuffix}${phone}` : phone, otp);
+      await createMessage(countryCode ? `${countryCode}${phone}` : phone, otp);
       verificationMessage = "OTP sent to your phone number";
     } catch (error) {
       console.error("SMS sending failed:", error);
@@ -181,11 +171,10 @@ export const register = asyncHandler(async (req, res) => {
   // Remove sensitive data from response
   const userResponse = {
     _id: user._id,
-    username: user.username,
     fullName: user.fullName,
     email: user.email,
     phone: user.phone,
-    phoneSuffix: user.phoneSuffix,
+    countryCode: user.countryCode,
     isVerified: user.isVerified,
     createdAt: user.createdAt,
   };
@@ -318,30 +307,27 @@ export const resendVerification = asyncHandler(async (req, res) => {
 
 // Login user
 export const login = asyncHandler(async (req, res) => {
-  const { identifier, password } = req.body; // identifier can be username, email, or phone
+  const { identifier, password } = req.body; // identifier can be email or phone
 
   if (!identifier || !password) {
-    throw new ApiError(400, "Username/email/phone and password are required");
+    throw new ApiError(400, "Email/phone and password are required");
   }
 
-  // Find user by username, email, or phone
+  // Find user by email or phone
   let user;
-  // If identifier looks like a 10-digit phone, prefer phone lookup (suffix must match optionally)
+  // If identifier looks like a 10-digit phone, prefer phone lookup
   if (/^[0-9]{10}$/.test(identifier)) {
     user = await User.findOne({ phone: identifier }).select(
       "+password +refreshToken"
     );
   } else {
-    user = await User.findOne({
-      $or: [
-        { username: identifier.toLowerCase() },
-        { email: identifier.toLowerCase() },
-      ],
-    }).select("+password +refreshToken");
+    user = await User.findOne({ email: identifier.toLowerCase() }).select(
+      "+password +refreshToken"
+    );
   }
 
   if (!user) {
-    throw new ApiError(401, "Invalid Username/email/phone");
+    throw new ApiError(401, "Invalid email or phone");
   }
 
   // Check password
@@ -401,8 +387,8 @@ export const login = asyncHandler(async (req, res) => {
       const userVerification = new UserVerification(verificationData);
       const otp = await userVerification.generateOTP();
 
-      // include phoneSuffix if available
-      if (user.phoneSuffix) userVerification.phoneSuffix = user.phoneSuffix;
+      // include countryCode if available
+      if (user.countryCode) userVerification.countryCode = user.countryCode;
       await userVerification.save();
 
       user.userVerification = userVerification._id;
@@ -410,7 +396,7 @@ export const login = asyncHandler(async (req, res) => {
 
       try {
         await createMessage(
-          user.phoneSuffix ? `${user.phoneSuffix}${user.phone}` : user.phone,
+          user.countryCode ? `${user.countryCode}${user.phone}` : user.phone,
           otp
         );
         verificationMessage = "OTP sent to your phone number";
@@ -436,12 +422,11 @@ export const login = asyncHandler(async (req, res) => {
   // Remove sensitive data from response
   const userResponse = {
     _id: user._id,
-    username: user.username,
     fullName: user.fullName,
     email: user.email,
     phone: user.phone,
-    phoneSuffix: user.phoneSuffix,
-    profilePicture: user.profilePicture,
+    countryCode: user.countryCode,
+    avatar: user.avatar,
     bio: user.bio,
     isVerified: user.isVerified,
     isOnline: user.isOnline,
@@ -694,7 +679,7 @@ export const resetPassword = asyncHandler(async (req, res) => {
 // Update profile
 export const updateProfile = asyncHandler(async (req, res) => {
   const user = req.user; // From auth middleware
-  const { fullName, bio, email, phone, phoneSuffix } = req.body;
+  const { fullName, bio, email, phone, countryCode, avatar } = req.body;
 
   if (!user) {
     throw new ApiError(401, "User not authenticated");
@@ -746,24 +731,24 @@ export const updateProfile = asyncHandler(async (req, res) => {
     if (phone && !/^[0-9]{10}$/.test(phone)) {
       throw new ApiError(400, "Phone number must be exactly 10 digits");
     }
-    if (phone && !phoneSuffix && !user.phoneSuffix) {
-      throw new ApiError(400, "phoneSuffix is required when updating phone");
+    if (phone && !countryCode && !user.countryCode) {
+      throw new ApiError(400, "countryCode is required when updating phone");
     }
 
-    // Validate phoneSuffix format if provided
-    if (phoneSuffix && !/^\+?[0-9]{1,4}$/.test(phoneSuffix)) {
+    // Validate countryCode format if provided
+    if (countryCode && !/^\+?[0-9]{1,4}$/.test(countryCode)) {
       throw new ApiError(
         400,
-        "phoneSuffix must be a valid country calling code (e.g. +1, +44, or 1)"
+        "countryCode must be a valid country calling code (e.g. +1, +44, or 1)"
       );
     }
 
     // Check if phone with suffix is already taken by another user
     if (phone) {
-      const searchPhoneSuffix = phoneSuffix || user.phoneSuffix || null;
+      const searchCountryCode = countryCode || user.countryCode || null;
       const existingUser = await User.findOne({
         phone,
-        phoneSuffix: searchPhoneSuffix,
+        countryCode: searchCountryCode,
         _id: { $ne: user._id },
       });
       if (existingUser) {
@@ -772,12 +757,12 @@ export const updateProfile = asyncHandler(async (req, res) => {
     }
 
     updates.phone = phone;
-    if (phoneSuffix !== undefined) updates.phoneSuffix = phoneSuffix || null;
+    if (countryCode !== undefined) updates.countryCode = countryCode || null;
 
     // If phone or suffix is being updated, unverify the user
     if (
       (phone && phone !== user.phone) ||
-      (phoneSuffix !== undefined && phoneSuffix !== user.phoneSuffix)
+      (countryCode !== undefined && countryCode !== user.countryCode)
     ) {
       updates.isVerified = false;
     }
@@ -786,8 +771,8 @@ export const updateProfile = asyncHandler(async (req, res) => {
   // Check if at least one of email or phone will remain
   const finalEmail = updates.email !== undefined ? updates.email : user.email;
   const finalPhone = updates.phone !== undefined ? updates.phone : user.phone;
-  const finalPhoneSuffix =
-    updates.phoneSuffix !== undefined ? updates.phoneSuffix : user.phoneSuffix;
+  const finalCountryCode =
+    updates.countryCode !== undefined ? updates.countryCode : user.countryCode;
 
   if (!finalEmail && !finalPhone) {
     throw new ApiError(400, "At least one of email or phone must be provided");
@@ -801,12 +786,11 @@ export const updateProfile = asyncHandler(async (req, res) => {
   // Remove sensitive data from response
   const userResponse = {
     _id: updatedUser._id,
-    username: updatedUser.username,
     fullName: updatedUser.fullName,
     email: updatedUser.email,
     phone: updatedUser.phone,
-    phoneSuffix: updatedUser.phoneSuffix,
-    profilePicture: updatedUser.profilePicture,
+    countryCode: updatedUser.countryCode,
+    avatar: updatedUser.avatar,
     bio: updatedUser.bio,
     isVerified: updatedUser.isVerified,
     isOnline: updatedUser.isOnline,
@@ -894,12 +878,11 @@ export const getCurrentUser = asyncHandler(async (req, res) => {
 
   const userResponse = {
     _id: user._id,
-    username: user.username,
     fullName: user.fullName,
     email: user.email,
     phone: user.phone,
-    phoneSuffix: user.phoneSuffix,
-    profilePicture: user.profilePicture,
+    countryCode: user.countryCode,
+    avatar: user.avatar,
     bio: user.bio,
     isVerified: user.isVerified,
     isOnline: user.isOnline,
@@ -916,40 +899,29 @@ export const getCurrentUser = asyncHandler(async (req, res) => {
 });
 
 // Get all users
-export const getAllUsers = asyncHandler(async (req, res) => {
+export const searchUsers = asyncHandler(async (req, res) => {
   const loggedInUser = req.user;
+  const search = req.query.search || " ";
 
   if (!loggedInUser) {
     throw new ApiError(401, "User not authenticated");
   }
 
-  const users = await User.find({ _id: { $ne: loggedInUser._id } })
-    .select("fullName email phone phoneSuffix profilePicture isOnline lastSeen")
-    .lean();
+  const searchQuery = search
+    ? {
+        $or: [
+          { email: { $regex: search, $options: "i" } },
+          { phone: { $regex: search, $options: "i" } },
+        ],
+      }
+    : {};
 
-  const usersWithConversations = await Promise.all(
-    users.map(async (user) => {
-      const conversation = await Chat.findOne({
-        participants: { $all: [loggedInUser._id, user._id] },
-      }).populate({
-        path: "lastMessage",
-        select: "content sender receiver createdAt",
-      });
-
-      return {
-        ...user,
-        conversation: conversation || null,
-      };
-    })
-  );
+  const users = await User.find({
+    _id: { $ne: loggedInUser._id },
+    ...searchQuery,
+  });
 
   return res
     .status(200)
-    .json(
-      new ApiResponse(
-        200,
-        "Conversations fetched successfully",
-        usersWithConversations
-      )
-    );
+    .json(new ApiResponse(200, "users retrieved successfully", users));
 });
