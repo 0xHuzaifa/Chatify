@@ -51,7 +51,7 @@ const chatSchema = new Schema(
   { timestamps: true }
 );
 
-chatSchema.index({ participants: 1 });
+chatSchema.index({ participants: 1, isGroupChat: 1 });
 chatSchema.index({ "unreadCount.user": 1 });
 chatSchema.index({ lastMessage: 1 });
 
