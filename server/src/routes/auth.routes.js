@@ -21,7 +21,7 @@ router.post("/register", register);
 router.post("/verify", verifyUser);
 router.post("/login", login);
 router.post("/resend-verification", resendVerification);
-router.post("/refresh-token", refreshAccessToken);
+router.get("/refresh-token", refreshAccessToken);
 router.post("/forgot-password", forgotPassword);
 router.post("/reset-password", resetPassword);
 

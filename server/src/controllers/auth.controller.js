@@ -494,9 +494,7 @@ export const refreshAccessToken = asyncHandler(async (req, res) => {
       process.env.JWT_REFRESH_TOKEN_SECRET
     );
 
-    const user = await User.findById(decodedToken.userId).select(
-      "+refreshToken"
-    );
+    const user = await User.findById(decodedToken.id).select("+refreshToken");
     if (!user) {
       throw new ApiError(401, "Invalid refresh token");
     }
@@ -506,12 +504,9 @@ export const refreshAccessToken = asyncHandler(async (req, res) => {
     }
 
     // Generate new tokens
-    const accessToken = user.accessToken();
-    const newRefreshToken = user.refreshToken();
-
-    // Update refresh token in database
-    user.refreshToken = newRefreshToken;
-    await user.save();
+    const { accessToken, refreshToken: newRefreshToken } = await generateTokens(
+      user._id
+    );
 
     const cookieOptions = generateCookieOptions();
 
@@ -526,7 +521,7 @@ export const refreshAccessToken = asyncHandler(async (req, res) => {
         })
       );
   } catch (error) {
-    throw new ApiError(401, "Invalid refresh token");
+    throw new ApiError(401, "Invalid refresh token", error.message);
   }
 });
 
