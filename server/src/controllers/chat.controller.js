@@ -8,6 +8,7 @@ import ApiResponse from "../utils/ApiResponse.js";
 // Services
 import {
   accessOrCreateChatService,
+  createGroupChatService,
   fetchChatsService,
 } from "../services/chat.service.js";
 
@@ -37,4 +38,19 @@ const fetchChats = asyncHandler(async function (req, res) {
     .json(new ApiResponse(200, "Chats fetched successfully", result));
 });
 
-export { accessChat, fetchChats };
+const createGroupChat = asyncHandler(async function (req, res) {
+  const loggedInUser = req.user._id;
+  const { groupName, participants } = req.body;
+
+  const createGroupChat = await createGroupChatService(
+    loggedInUser,
+    groupName,
+    participants
+  );
+
+  return res
+    .status(201)
+    .json(new ApiResponse(201, "Group chat created", createGroupChat));
+});
+
+export { accessChat, fetchChats, createGroupChat };
