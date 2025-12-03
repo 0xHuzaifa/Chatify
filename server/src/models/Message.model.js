@@ -1,6 +1,6 @@
 import { Schema } from "mongoose";
-import ApiError from "../utils/ApiError";
-import Chat from "./Chat.model";
+import ApiError from "../utils/ApiError.js";
+import Chat from "./Chat.model.js";
 import getModelSafely from "../helpers/getModelSafely.js";
 
 const messageSchema = new Schema(
@@ -58,8 +58,9 @@ const messageSchema = new Schema(
   { timestamps: true }
 );
 
+messageSchema.index({ chat: 1, _id: 1 });
 messageSchema.index({ chat: 1, createdAt: -1 }); // sort messages by time
-messageSchema.index({ status: 1 }); // fast status based queries
+messageSchema.index({ messageStatus: 1 }); // fast messageStatus based queries
 messageSchema.index({ "reactions.user": 1 }); // fast reaction queries
 
 // Validation: At least one of content or fileUrl must be present
@@ -93,7 +94,7 @@ messageSchema.post("save", async function (doc) {
 messageSchema.pre(/^find/, function (next) {
   this.where({ deletedAt: null })
     .populate("sender", "fullName avatar")
-    .populate("reactions.user", "fullName, avatar");
+    .populate("reactions.user", "fullName avatar");
 
   next();
 });
