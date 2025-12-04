@@ -1,8 +1,5 @@
-import mongoose, { isValidObjectId } from "mongoose";
-
 // Utils
 import asyncHandler from "../utils/AsyncHandler.js";
-import ApiError from "../utils/ApiError.js";
 import ApiResponse from "../utils/ApiResponse.js";
 
 // Services
@@ -11,22 +8,6 @@ import {
   createGroupChatService,
   fetchChatsService,
 } from "../services/chat.service.js";
-
-const accessChat = asyncHandler(async function (req, res) {
-  const loggedInUser = req.user._id;
-  const userId = req.body.userId;
-
-  // Ensure the provided userId is a valid MongoDB ObjectId
-  if (!isValidObjectId(userId)) {
-    throw new ApiError(400, "Invalid target user id");
-  }
-
-  const chat = await accessOrCreateChatService(loggedInUser, userId);
-
-  return res
-    .status(200)
-    .json(new ApiResponse(chat.status, chat.message, chat.data));
-});
 
 const fetchChats = asyncHandler(async function (req, res) {
   const loggedInUser = req.user._id;
@@ -38,11 +19,22 @@ const fetchChats = asyncHandler(async function (req, res) {
     .json(new ApiResponse(200, "Chats fetched successfully", result));
 });
 
+const accessChat = asyncHandler(async function (req, res) {
+  const loggedInUser = req.user._id;
+  const { userId, groupId } = req.body;
+
+  const chat = await accessOrCreateChatService(loggedInUser, userId, groupId);
+
+  return res
+    .status(200)
+    .json(new ApiResponse(chat.status, chat.message, chat.data));
+});
+
 const createGroupChat = asyncHandler(async function (req, res) {
   const loggedInUser = req.user._id;
   const { groupName, participants } = req.body;
 
-  const createGroupChat = await createGroupChatService(
+  const result = await createGroupChatService(
     loggedInUser,
     groupName,
     participants
@@ -50,7 +42,7 @@ const createGroupChat = asyncHandler(async function (req, res) {
 
   return res
     .status(201)
-    .json(new ApiResponse(201, "Group chat created", createGroupChat));
+    .json(new ApiResponse(201, "Group chat created", result));
 });
 
 export { accessChat, fetchChats, createGroupChat };
