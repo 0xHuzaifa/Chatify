@@ -9,6 +9,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  server: {
+    port: 5005,
+  },
 };
 
 export default nextConfig;

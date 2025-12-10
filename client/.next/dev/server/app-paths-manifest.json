@@ -1,6 +1,3 @@
 {
-  "/(auth)/login/page": "app/(auth)/login/page.js",
-  "/(protected)/chat/page": "app/(protected)/chat/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js"
+  "/(protected)/chat/page": "app/(protected)/chat/page.js"
 }
