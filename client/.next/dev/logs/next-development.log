@@ -1,0 +1,4353 @@
+[00:00:02.443] Server  LOG      ✓ Ready in 1414ms
+[00:00:06.187] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:14.346] Server  LOG      ✓ Compiled in 106ms
+[00:01:17.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:18.522] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:05:34.228] Server  LOG      ✓ Compiled in 762ms
+[00:08:28.401] Server  LOG      ✓ Compiled in 18ms
+[00:08:46.895] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles";
+    | ^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:46.915] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles";
+    | ^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:46.936] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles";
+    | ^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:46.975] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles";
+    | ^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:46.990] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles";
+    | ^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:46.999] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles";
+    | ^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:47.010] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles";
+    | ^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:47.027] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles";
+    | ^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:47.071] Server  LOG      ✓ Compiled in 382ms
+[00:08:47.959] Browser ERROR   ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles";
+    | ^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:49.258] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles/globals.css'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:49.260] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles/globals.css'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:49.262] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles/globals.css'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:49.265] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles/globals.css'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:49.266] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles/globals.css'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:49.279] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles/globals.css'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:49.282] Server  ERROR    ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles/globals.css'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:49.954] Browser ERROR   ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/styles/globals.css'
+  2 | import type { Metadata, Viewport } from "next";
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+> 4 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const geist = Geist({ subsets: ["latin"] });
+  7 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:12.190] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | @ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:12.191] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | @ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:12.194] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | @ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:12.196] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | @ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:12.198] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | @ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:12.200] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | @ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:12.203] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | @ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:12.959] Browser ERROR   ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | @ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:16.281] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:16.288] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:16.296] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:16.309] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:16.317] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:16.326] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:16.333] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:16.955] Browser ERROR   ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:25.956] Browser ERROR   ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:31.948] Browser ERROR   ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:32.961] Browser ERROR   ./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/styles/globals.css'
+  3 | import { Geist, Geist_Mono } from "next/font/google";
+  4 | //@ts-ignore
+> 5 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const geist = Geist({ subsets: ["latin"] });
+  8 | const geistMono = Geist_Mono({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/styles/globals.css' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:44.147] Server  LOG      ✓ Compiled in 605ms
+[00:10:09.973] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:14.012] Server  LOG      ✓ Compiled in 106ms
+[00:35:32.262] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.264] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.269] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.274] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.278] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.280] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.281] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.286] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.289] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.292] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.294] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.295] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.298] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.300] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.301] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.304] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.306] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.308] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.310] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.313] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:32.322] Server  LOG      ✓ Compiled in 188ms
+[00:35:32.952] Browser ERROR   ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:46.820] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.823] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.824] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.825] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.827] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.828] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.830] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.831] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.834] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.835] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.836] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.838] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.839] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.840] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.842] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.844] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.846] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.848] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.850] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.851] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.852] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.854] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.855] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.856] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.859] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.860] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.861] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.863] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.865] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.866] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.868] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.870] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:46.872] Server  LOG      ✓ Compiled in 184ms
+[00:40:47.955] Browser ERROR   ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:47.955] Browser ERROR   ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:53.033] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.035] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.036] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.038] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.039] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.040] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.041] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.043] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.045] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.047] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.049] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.050] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.051] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.052] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.054] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.055] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.057] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.058] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.060] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.061] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.063] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.064] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.066] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.067] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:53.069] Server  LOG      ✓ Compiled in 75ms
+[00:40:53.955] Browser ERROR   ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:53.956] Browser ERROR   ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:54.533] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.535] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.536] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.537] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.538] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.540] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.541] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.542] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.544] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.546] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.548] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.549] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.550] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.552] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.553] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.555] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.557] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.559] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.560] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.561] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.563] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.565] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.566] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.568] Server  ERROR    ⨯ ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:54.570] Server  LOG      ✓ Compiled in 91ms
+[00:40:54.960] Browser ERROR   ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:54.960] Browser ERROR   ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:08.279] Server  ERROR    ⨯ ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:08.403] Browser ERROR   ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:08.403] Browser ERROR   ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:09.654] Browser ERROR   ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:09.654] Browser ERROR   ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:09.834] Browser ERROR   ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:09.834] Browser ERROR   ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:11.388] Browser ERROR   uncaughtError: Error: ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:11.576] Browser ERROR   ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:11.576] Browser ERROR   ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:11.576] Browser ERROR   ./src/components/ui/avatar.tsx:6:1
+Module not found: Can't resolve '@/lib/utils'
+  4 | import * as AvatarPrimitive from '@radix-ui/react-avatar'
+  5 |
+> 6 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | function Avatar({
+  9 |   className,
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/avatar.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/avatar.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:11.576] Browser ERROR   ./src/components/ui/badge.tsx:5:1
+Module not found: Can't resolve '@/lib/utils'
+  3 | import { cva, type VariantProps } from 'class-variance-authority'
+  4 |
+> 5 | import { cn } from '@/lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const badgeVariants = cva(
+  8 |   'inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden',
+
+Import map: aliased to relative './src/lib/utils' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/badge.tsx [Client Component Browser]
+    ./src/components/chat/chat-list.tsx [Client Component Browser]
+    ./src/components/chat/chat-sidebar.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Client Component Browser]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/badge.tsx [Client Component SSR]
+    ./src/components/chat/chat-list.tsx [Client Component SSR]
+    ./src/components/chat/chat-sidebar.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Client Component SSR]
+    ./src/app/(protected)/chat/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:42:01.471] Server  LOG      ✓ Compiled in 153ms
+[00:42:01.999] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:26.244] Server  LOG      ✓ Compiled in 159ms
+[00:43:37.997] Server  LOG      ✓ Compiled in 96ms
+[00:43:51.265] Server  LOG      ✓ Compiled in 100ms
+[00:44:01.117] Server  LOG      ✓ Compiled in 76ms
+[00:45:49.670] Server  LOG      ✓ Compiled in 214ms
+[00:47:51.209] Server  LOG      ✓ Compiled in 93ms
+[00:48:00.921] Server  LOG      ✓ Compiled in 89ms
+[00:48:05.562] Server  LOG      ✓ Compiled in 218ms
+[00:50:17.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:20.284] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:30.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:31.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:32.232] Server  LOG      ✓ Compiled in 99ms
+[00:52:10.935] Server  LOG      ✓ Compiled in 120ms
+[00:52:14.532] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:19.107] Server  LOG      ✓ Compiled in 72ms
+[00:52:23.626] Server  LOG      ✓ Compiled in 110ms
+[00:54:03.228] Server  LOG      ✓ Compiled in 72ms
+[00:54:07.935] Server  LOG      ✓ Compiled in 79ms
+[00:54:14.181] Server  LOG      ✓ Compiled in 178ms
+[00:54:37.263] Server  LOG      ✓ Compiled in 89ms
+[00:58:53.533] Server  LOG      ✓ Compiled in 79ms
+[00:59:02.294] Server  LOG      ✓ Compiled in 86ms
+[00:59:06.332] Server  LOG      ✓ Compiled in 87ms
+[00:59:12.372] Server  LOG      ✓ Compiled in 86ms
+[00:59:14.958] Server  LOG      ✓ Compiled in 80ms
+[00:59:26.703] Server  LOG      ✓ Compiled in 80ms
+[00:59:30.220] Server  LOG      ✓ Compiled in 112ms
+[00:59:46.761] Server  LOG      ✓ Compiled in 99ms
+[00:59:51.010] Server  LOG      ✓ Compiled in 88ms
+[01:00:02.609] Server  LOG      ✓ Compiled in 162ms
+[01:00:15.891] Server  LOG      ✓ Compiled in 94ms
+[01:00:19.261] Server  LOG      ✓ Compiled in 98ms
+[01:00:23.092] Server  LOG      ✓ Compiled in 163ms
+[01:01:01.252] Server  LOG      ✓ Compiled in 184ms
+[01:01:05.712] Server  LOG      ✓ Compiled in 174ms
+[01:01:11.599] Server  LOG      ✓ Compiled in 167ms
+[01:01:13.633] Server  LOG      ✓ Compiled in 248ms
+[01:02:27.793] Server  LOG      ✓ Compiled in 83ms
+[01:02:38.321] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:43.454] Server  LOG      ✓ Compiled in 106ms
+[01:03:03.011] Server  LOG      ✓ Compiled in 80ms
+[01:03:05.691] Server  LOG      ✓ Compiled in 133ms
+[01:03:13.401] Server  LOG      ✓ Compiled in 76ms
+[01:03:18.001] Server  LOG      ✓ Compiled in 72ms
+[01:03:26.166] Server  LOG      ✓ Compiled in 76ms
+[01:03:35.898] Server  LOG      ✓ Compiled in 78ms
+[01:03:39.488] Server  LOG      ✓ Compiled in 81ms
+[01:03:44.254] Server  LOG      ✓ Compiled in 82ms
+[01:03:54.180] Server  LOG      ✓ Compiled in 92ms
+[01:04:01.876] Server  LOG      ✓ Compiled in 91ms
+[01:04:33.253] Server  LOG      ✓ Compiled in 91ms
+[01:04:40.996] Server  LOG      ✓ Compiled in 272ms
+[01:04:44.860] Server  LOG      ✓ Compiled in 83ms
+[01:04:55.251] Server  LOG      ✓ Compiled in 192ms
+[01:04:58.771] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:05.452] Server  LOG      ✓ Compiled in 72ms
+[01:05:08.915] Server  LOG      ✓ Compiled in 73ms
+[01:05:12.939] Server  LOG      ✓ Compiled in 96ms
+[01:05:15.361] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:23.498] Server  LOG      ✓ Compiled in 92ms
+[01:05:29.520] Server  LOG      ✓ Compiled in 96ms
+[01:05:31.807] Server  LOG      ✓ Compiled in 75ms
+[01:06:21.352] Server  LOG      ✓ Compiled in 95ms
+[01:06:21.957] Browser ERROR   uncaughtError: ReferenceError: Avatar is not defined
+[01:07:03.578] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:07:03.606] Server  LOG      ✓ Compiled in 83ms
+[01:07:03.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:51.810] Server  LOG      ✓ Compiled in 85ms
+[01:08:39.475] Server  LOG      ✓ Compiled in 105ms
+[01:08:54.148] Server  LOG      ✓ Compiled in 91ms
+[01:12:16.306] Server  LOG      ✓ Compiled in 122ms
+[01:12:16.950] Browser ERROR   uncaughtError: ReferenceError: getInitials is not defined
+[01:13:40.950] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:13:40.979] Server  LOG      ✓ Compiled in 112ms
+[01:13:41.381] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:41.961] Browser ERROR   uncaughtError: ReferenceError: getInitials is not defined
+[01:14:10.796] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:14:10.809] Server  LOG      ✓ Compiled in 171ms
+[01:14:11.171] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:11.952] Browser ERROR   uncaughtError: ReferenceError: getInitials is not defined
+[01:14:12.152] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:14:12.332] Server  LOG      ✓ Compiled in 87ms
+[01:14:12.490] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:12.953] Browser ERROR   uncaughtError: ReferenceError: getInitials is not defined
+[01:14:20.885] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:14:21.071] Server  LOG      ✓ Compiled in 114ms
+[01:14:21.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:40.642] Server  LOG      ✓ Compiled in 115ms
+[01:15:41.113] Server  LOG      ✓ Compiled in 91ms
+[01:15:44.482] Server  LOG      ✓ Compiled in 92ms
+[01:15:45.504] Server  LOG      ✓ Compiled in 87ms
+[01:15:54.640] Server  LOG      ✓ Compiled in 80ms
+[01:16:00.050] Server  LOG      ✓ Compiled in 86ms
+[01:16:03.972] Server  LOG      ✓ Compiled in 82ms
+[01:16:11.542] Server  LOG      ✓ Compiled in 88ms
+[01:16:15.444] Server  LOG      ✓ Compiled in 134ms
+[01:16:16.729] Server  LOG      ✓ Compiled in 103ms
+[01:16:21.119] Server  LOG      ✓ Compiled in 90ms
+[01:17:17.702] Server  LOG      ✓ Compiled in 203ms
+[01:17:21.605] Server  LOG      ✓ Compiled in 99ms
+[01:17:30.211] Server  LOG      ✓ Compiled in 112ms
+[01:17:35.699] Server  LOG      ✓ Compiled in 158ms
+[01:17:39.057] Server  LOG      ✓ Compiled in 160ms
+[01:17:41.318] Server  LOG      ✓ Compiled in 162ms
+[01:17:45.136] Server  LOG      ✓ Compiled in 160ms
+[01:17:48.493] Server  LOG      ✓ Compiled in 181ms
+[01:17:51.933] Server  LOG      ✓ Compiled in 75ms
+[01:17:53.924] Server  LOG      ✓ Compiled in 82ms
+[01:17:59.811] Server  LOG      ✓ Compiled in 84ms
+[01:18:03.080] Server  LOG      ✓ Compiled in 73ms
