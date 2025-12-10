@@ -1,8 +1,12 @@
 import dotenv from "dotenv";
 dotenv.config();
+import http from "http";
 
 // Database
 import dbConnection from "./database/db.js";
+
+// Socket
+import initSocket from "./socket/index.js";
 
 // Import the configured app (middlewares & routes)
 import app from "./app.js";
@@ -13,14 +17,21 @@ const serverStart = async () => {
   try {
     await dbConnection.connect();
 
-    const server = app.listen(PORT, () => {
+    // 1️⃣ Create HTTP Server
+    const httpServer = http.createServer(app);
+
+    // 2️⃣ Init Socket.IO
+    initSocket(httpServer);
+
+    // 3️⃣ Start Server
+    httpServer.listen(PORT, () => {
       console.log(`Server is running on port ${PORT}`);
     });
 
     // Graceful shutdown for server
     const gracefulShutdown = () => {
       console.log("Shutting down server gracefully...");
-      server.close(async () => {
+      httpServer.close(async () => {
         console.log("HTTP server closed");
         await dbConnection.disconnect();
         process.exit(0);
