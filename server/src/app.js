@@ -5,8 +5,12 @@ import cookiesParser from "cookie-parser";
 import errorHandler from "./middlewares/errorHandler.middleware.js";
 import authentication from "./middlewares/auth.middleware.js";
 
+// Config
+import corsMiddleware from "./config/cors.config.js";
+
 const app = express();
 
+app.use(corsMiddleware);
 app.use(cookiesParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
