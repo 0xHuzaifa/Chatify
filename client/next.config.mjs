@@ -6,12 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: {
-    appDir: true,
-  },
-  server: {
-    port: 5005,
-  },
+  appDir: true,
 };
 
 export default nextConfig;
