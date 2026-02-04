@@ -7,6 +7,6 @@ export const authApi = {
   verify: (payload: { token: string }) => api.post("/auth/verify", payload),
   resendVerification: (payload: any) =>
     api.post("/auth/resend-verification", payload),
-  getProfile: () => api.get("/auth/profile"),
+  getProfile: () => api.get("/auth/me"),
   refreshToken: () => api.get("/auth/refresh-token"),
 };
