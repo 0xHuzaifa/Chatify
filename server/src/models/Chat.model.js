@@ -29,7 +29,7 @@ const chatSchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: "User",
       required: function () {
-        return this.isGroupChat;
+        return this.isGroup;
       },
     },
 
@@ -49,7 +49,7 @@ const chatSchema = new Schema(
       },
     ],
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 chatSchema.index({ participants: 1, isGroupChat: 1 });
@@ -62,7 +62,7 @@ chatSchema.index({ groupAdmin: 1 });
 chatSchema.pre("validate", function (next) {
   if (this.participants.length < 2) {
     return next(
-      new ApiError(400, "Minimum 2 participants are required for chat")
+      new ApiError(400, "Minimum 2 participants are required for chat"),
     );
   }
 
@@ -78,7 +78,7 @@ chatSchema.pre("validate", function (next) {
 // Method: Reset unread count for a user
 chatSchema.methods.resetUnreadCount = async function (userId) {
   this.unreadCount = this.unreadCount.map((uc) =>
-    uc.user.toString() === userId.toString() ? { ...uc, count: 0 } : uc
+    uc.user.toString() === userId.toString() ? { ...uc, count: 0 } : uc,
   );
   await this.save();
 };
