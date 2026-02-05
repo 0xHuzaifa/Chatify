@@ -10,9 +10,7 @@ import { validateGroupName, populateChat } from "../helpers/chat/index.js";
 
 const fetchChatsService = async (userId) => {
   const chats = await Chat.find({ participants: userId })
-    .select(
-      "participants lastMessage isGroupChat chatName updatedAt unreadCount"
-    )
+    .select("participants lastMessage isGroup groupName updatedAt unreadCount")
     .populate({
       path: "participants",
       select: "fullName isOnline lastSeen avatar",
@@ -25,23 +23,32 @@ const fetchChatsService = async (userId) => {
     .sort({ updatedAt: -1 }) // ⭐ IMPORTANT: order chats by latest activity
     .lean({ virtuals: true });
 
-  // const chats = await Chat.find({ participants: userId })
-  //   .populate({
-  //     path: "participants",
-  //     select: "fullName isOnline lastSeen avatar",
-  //   })
-  //   .populate({
-  //     path: "lastMessage",
-  //     select: "sender content fileUrl contentType messageStatus createdAt",
-  //     populate: { path: "sender", select: "fullName avatar" },
-  //   })
-  //   .lean()
-  //   .sort({ updatedAt: -1 });
   if (!chats || chats.length === 0) {
     throw new ApiError(404, "No Chat Founds");
   }
 
-  return chats;
+  // Add chatName field based on chat type
+  const chatsWithNames = chats.map((chat) => {
+    let chatName = "Unknown";
+
+    if (chat.isGroup || chat.isGroupChat) {
+      // For group chats, use the group name
+      chatName = chat.groupName || "Group";
+    } else {
+      // For single chats, find the other participant's name
+      const otherParticipant = chat.participants.find(
+        (p) => String(p._id) !== String(userId),
+      );
+      chatName = otherParticipant?.fullName || "Unknown";
+    }
+
+    return {
+      ...chat,
+      chatName,
+    };
+  });
+
+  return chatsWithNames;
 };
 
 const accessOrCreateChatService = async (loggedInUser, userId, groupId) => {
@@ -54,7 +61,7 @@ const accessOrCreateChatService = async (loggedInUser, userId, groupId) => {
         _id: groupId,
         isGroup: true,
         participants: [loggedInUser],
-      })
+      }),
     );
 
     if (!group) throw new ApiError(404, "Group chat not found");
@@ -69,7 +76,7 @@ const accessOrCreateChatService = async (loggedInUser, userId, groupId) => {
   // --------------------
   // 2) Access / Create SINGLE CHAT
   // --------------------
-  if (!userId) throw new Error(400, "single or group chat id is required");
+  if (!userId) throw new ApiError(400, "single or group chat id is required");
 
   const targetUser = await User.findById(userId);
   if (!targetUser) throw new ApiError(404, "target user not found");
@@ -83,7 +90,7 @@ const accessOrCreateChatService = async (loggedInUser, userId, groupId) => {
     Chat.findOne({
       participants: { $all: [loggedInUser, userId], $size: 2 },
       isGroup: false,
-    })
+    }),
   ).lean();
 
   if (chat) {
@@ -111,7 +118,7 @@ const accessOrCreateChatService = async (loggedInUser, userId, groupId) => {
 const createGroupChatService = async (
   loggedInUser,
   groupName,
-  participants
+  participants,
 ) => {
   // Validate participants arg
   if (!Array.isArray(participants)) {
@@ -136,7 +143,7 @@ const createGroupChatService = async (
   if (participantIds.length < 3) {
     throw new ApiError(
       400,
-      "At least 3 participants (including you) are required to form a group chat"
+      "At least 3 participants (including you) are required to form a group chat",
     );
   }
 
