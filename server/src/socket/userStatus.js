@@ -1,13 +1,33 @@
-const onlineUsers = new Map();
+const onlineUsers = new Map(); // userId -> Set(socketId)
 
 const trackOnlineUsers = (io, socket) => {
-  onlineUsers.set(socket.id, socket.user._id);
-  io.emit("user_online", socket.user._id);
+  const userId = socket.user._id.toString();
+
+  // 🔑 JOIN USER ROOM
+  socket.join(userId);
+
+  if (!onlineUsers.has(userId)) {
+    onlineUsers.set(userId, new Set());
+
+    // 🔔 notify others (NOT the user)
+    socket.broadcast.emit("user_online", userId);
+  }
+
+  onlineUsers.get(userId).add(socket.id);
 
   socket.on("disconnect", () => {
-    onlineUsers.delete(socket.id);
-    io.emit("user_offline", socket.user._id);
+    const userSockets = onlineUsers.get(userId);
+    userSockets.delete(socket.id);
+
+    if (userSockets.size === 0) {
+      onlineUsers.delete(userId);
+
+      // 🔔 notify others
+      socket.broadcast.emit("user_offline", userId);
+    }
   });
 };
 
 export default trackOnlineUsers;
+
+export const isUserOnline = (userId) => onlineUsers.has(userId);
