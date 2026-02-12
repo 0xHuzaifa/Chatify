@@ -6,10 +6,8 @@ const messageApi = {
       params: { cursor: cursor ?? null, limit: limit ?? undefined },
     }),
 
-  sendMessage: (formData: FormData) =>
-    api.post("/message/send", formData, {
-      headers: { "Content-Type": "multipart/form-data" },
-    }),
+  sendMessage: (payload: { chatId: string; content: string }) =>
+    api.post("/message/send", payload),
 };
 
 export default messageApi;
