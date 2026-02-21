@@ -1,20 +1,44 @@
-"use client"
-import { useEffect, useState } from "react"
-import { useRouter } from "next/navigation"
+"use client";
+import { useEffect, useState } from "react";
+import { useRouter, usePathname } from "next/navigation";
+import { useAuthInit } from "@/hooks/useAuthInit";
+import { useAuthStore } from "@/store/auth.store";
+
+// Memoized selector
+const selectIsAuthenticated = (s: any) => s.isAuthenticated;
 
 export default function Page() {
-  const router = useRouter()
-  const [isLoading, setIsLoading] = useState(true)
+  const router = useRouter();
+  const isAuthenticated = useAuthStore(selectIsAuthenticated);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useAuthInit(); // ✅ hydrate auth on app start
+
+  const pathname = usePathname();
 
   useEffect(() => {
-    const authToken = localStorage.getItem("authToken")
-    if (authToken) {
-      router.push("/chat")
+    // Avoid noisy /login redirects when the user is already on an auth page
+    const isAuthRoute = (p: string | null) => {
+      if (!p) return false;
+      return [
+        "/login",
+        "/signup",
+        "/verify-code",
+        "/verify-link",
+        "/forgot-password",
+        "/reset-password",
+      ].some((r) => p.startsWith(r));
+    };
+
+    if (isAuthenticated) {
+      if (pathname !== "/chat") router.replace("/chat");
     } else {
-      router.push("/login")
+      // Only navigate to /login when we're not already inside the auth flow
+      if (!isAuthRoute(pathname)) router.replace("/login");
     }
-    setIsLoading(false)
-  }, [router])
+
+    setIsLoading(false);
+  }, [isAuthenticated, router, pathname]);
 
   if (isLoading) {
     return (
@@ -32,8 +56,8 @@ export default function Page() {
           />
         </div>
       </div>
-    )
+    );
   }
 
-  return null
+  return null;
 }

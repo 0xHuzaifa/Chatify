@@ -4,9 +4,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 //@ts-ignore
 import "@/app/globals.css";
 import Providers from "./providers";
+import "@/lib/axios/axios-refresh";
 
 const geist = Geist({ subsets: ["latin"] });
-const geistMono = Geist_Mono({ subsets: ["latin"] });
+// const geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Messenger - Chat with Anyone",
@@ -20,14 +21,14 @@ export const viewport: Viewport = {
   themeColor: "#0f172a",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geist.className} font-sans`}>
+      <body className={`${geist.className} font-sans`} suppressHydrationWarning>
         <Providers>{children}</Providers>
       </body>
     </html>
