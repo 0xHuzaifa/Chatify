@@ -45,7 +45,7 @@ const validateInput = (req) => {
 
   if (countryCode && !/^\+?[0-9]{1,4}$/.test(countryCode)) {
     errors.push(
-      "country code must be a valid country calling code (e.g. +1, +44, or 1)"
+      "country code must be a valid country calling code (e.g. +1, +44, or 1)",
     );
   }
 
@@ -57,11 +57,11 @@ const validateInput = (req) => {
   if (
     password &&
     !/(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]/.test(
-      password
+      password,
     )
   ) {
     errors.push(
-      "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character"
+      "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character",
     );
   }
 
@@ -120,7 +120,7 @@ export const register = asyncHandler(async (req, res) => {
     await user.save();
 
     const url = `${req.protocol}://${req.get(
-      "host"
+      "host",
     )}/api/auth/verify?token=${verificationLink}&userId=${user._id}`;
 
     const emailContent = verificationEmailTemplate(user.fullName, url);
@@ -185,8 +185,8 @@ export const register = asyncHandler(async (req, res) => {
       new ApiResponse(
         201,
         `User registered successfully. ${verificationMessage}`,
-        userResponse
-      )
+        userResponse,
+      ),
     );
 });
 
@@ -242,7 +242,7 @@ export const verifyUser = asyncHandler(async (req, res) => {
   res
     .status(200)
     .json(
-      new ApiResponse(200, "User verified successfully", { isVerified: true })
+      new ApiResponse(200, "User verified successfully", { isVerified: true }),
     );
 });
 
@@ -318,11 +318,11 @@ export const login = asyncHandler(async (req, res) => {
   // If identifier looks like a 10-digit phone, prefer phone lookup
   if (/^[0-9]{10}$/.test(identifier)) {
     user = await User.findOne({ phone: identifier }).select(
-      "+password +refreshToken"
+      "+password +refreshToken",
     );
   } else {
     user = await User.findOne({ email: identifier.toLowerCase() }).select(
-      "+password +refreshToken"
+      "+password +refreshToken",
     );
   }
 
@@ -361,7 +361,7 @@ export const login = asyncHandler(async (req, res) => {
       await user.save();
 
       const url = `${req.protocol}://${req.get(
-        "host"
+        "host",
       )}/api/auth/verify?token=${verificationLink}&userId=${user._id}`;
 
       const emailContent = verificationEmailTemplate(user.fullName, url);
@@ -397,7 +397,7 @@ export const login = asyncHandler(async (req, res) => {
       try {
         await createMessage(
           user.countryCode ? `${user.countryCode}${user.phone}` : user.phone,
-          otp
+          otp,
         );
         verificationMessage = "OTP sent to your phone number";
       } catch (error) {
@@ -407,7 +407,7 @@ export const login = asyncHandler(async (req, res) => {
       }
     }
 
-    return new ApiError("403", `User is not verified. ${verificationMessage}`);
+    throw new ApiError(403, `User is not verified. ${verificationMessage}`);
   }
 
   // Generate tokens
@@ -433,17 +433,20 @@ export const login = asyncHandler(async (req, res) => {
     lastSeen: user.lastSeen,
   };
 
-  const cookieOptions = generateCookieOptions();
+  const accessTokenOptions = generateCookieOptions(15 * 60 * 1000); // 15 mins
+  const refreshTokenOptions = generateCookieOptions(7 * 24 * 60 * 60 * 1000); // 7 days
+
+  console.log("Setting cookies with options:", { accessTokenOptions, refreshTokenOptions });
 
   res
     .status(200)
-    .cookie("accessToken", accessToken, cookieOptions)
-    .cookie("refreshToken", refreshToken, cookieOptions)
+    .cookie("accessToken", accessToken, accessTokenOptions)
+    .cookie("refreshToken", refreshToken, refreshTokenOptions)
     .json(
       new ApiResponse(200, "User logged in successfully", {
         user: userResponse,
         accessToken,
-      })
+      }),
     );
 });
 
@@ -463,14 +466,11 @@ export const logout = asyncHandler(async (req, res) => {
       isOnline: false,
       lastSeen: new Date(),
     },
-    { new: true }
+    { new: true },
   );
 
-  const cookieOptions = {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: "strict",
-  };
+  const cookieOptions = generateCookieOptions(0);
+  delete cookieOptions.maxAge;
 
   res
     .status(200)
@@ -491,7 +491,7 @@ export const refreshAccessToken = asyncHandler(async (req, res) => {
   try {
     const decodedToken = jwt.verify(
       incomingRefreshToken,
-      process.env.JWT_REFRESH_TOKEN_SECRET
+      process.env.JWT_REFRESH_TOKEN_SECRET,
     );
 
     const user = await User.findById(decodedToken.id).select("+refreshToken");
@@ -505,20 +505,21 @@ export const refreshAccessToken = asyncHandler(async (req, res) => {
 
     // Generate new tokens
     const { accessToken, refreshToken: newRefreshToken } = await generateTokens(
-      user._id
+      user._id,
     );
 
-    const cookieOptions = generateCookieOptions();
+    const accessTokenOptions = generateCookieOptions(15 * 60 * 1000); // 15 mins
+    const refreshTokenOptions = generateCookieOptions(7 * 24 * 60 * 60 * 1000); // 7 days
 
     res
       .status(200)
-      .cookie("accessToken", accessToken, cookieOptions)
-      .cookie("refreshToken", newRefreshToken, cookieOptions)
+      .cookie("accessToken", accessToken, accessTokenOptions)
+      .cookie("refreshToken", newRefreshToken, refreshTokenOptions)
       .json(
         new ApiResponse(200, "Access token refreshed successfully", {
           accessToken,
           refreshToken: newRefreshToken,
-        })
+        }),
       );
   } catch (error) {
     throw new ApiError(401, "Invalid refresh token", error.message);
@@ -545,8 +546,8 @@ export const forgotPassword = asyncHandler(async (req, res) => {
       .json(
         new ApiResponse(
           200,
-          "If an account with this email/phone exists, you will receive reset instructions"
-        )
+          "If an account with this email/phone exists, you will receive reset instructions",
+        ),
       );
   }
 
@@ -614,12 +615,12 @@ export const resetPassword = asyncHandler(async (req, res) => {
   if (
     newPassword.length < 8 ||
     !/(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]/.test(
-      newPassword
+      newPassword,
     )
   ) {
     throw new ApiError(
       400,
-      "Password must be at least 8 characters long and contain uppercase, lowercase, number, and special character"
+      "Password must be at least 8 characters long and contain uppercase, lowercase, number, and special character",
     );
   }
 
@@ -666,8 +667,8 @@ export const resetPassword = asyncHandler(async (req, res) => {
     .json(
       new ApiResponse(
         200,
-        "Password reset successfully. Please login with your new password."
-      )
+        "Password reset successfully. Please login with your new password.",
+      ),
     );
 });
 
@@ -734,7 +735,7 @@ export const updateProfile = asyncHandler(async (req, res) => {
     if (countryCode && !/^\+?[0-9]{1,4}$/.test(countryCode)) {
       throw new ApiError(
         400,
-        "countryCode must be a valid country calling code (e.g. +1, +44, or 1)"
+        "countryCode must be a valid country calling code (e.g. +1, +44, or 1)",
       );
     }
 
@@ -817,9 +818,8 @@ export const changePassword = asyncHandler(async (req, res) => {
   const userWithPassword = await User.findById(user._id).select("+password");
 
   // Verify current password
-  const isCurrentPasswordValid = await userWithPassword.comparePassword(
-    currentPassword
-  );
+  const isCurrentPasswordValid =
+    await userWithPassword.comparePassword(currentPassword);
   if (!isCurrentPasswordValid) {
     throw new ApiError(400, "Current password is incorrect");
   }
@@ -828,12 +828,12 @@ export const changePassword = asyncHandler(async (req, res) => {
   if (
     newPassword.length < 8 ||
     !/(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]/.test(
-      newPassword
+      newPassword,
     )
   ) {
     throw new ApiError(
       400,
-      "New password must be at least 8 characters long and contain uppercase, lowercase, number, and special character"
+      "New password must be at least 8 characters long and contain uppercase, lowercase, number, and special character",
     );
   }
 
@@ -842,7 +842,7 @@ export const changePassword = asyncHandler(async (req, res) => {
   if (isSamePassword) {
     throw new ApiError(
       400,
-      "New password must be different from current password"
+      "New password must be different from current password",
     );
   }
 
@@ -858,8 +858,8 @@ export const changePassword = asyncHandler(async (req, res) => {
     .json(
       new ApiResponse(
         200,
-        "Password changed successfully. Please login again with your new password."
-      )
+        "Password changed successfully. Please login again with your new password.",
+      ),
     );
 });
 
@@ -889,7 +889,7 @@ export const getCurrentUser = asyncHandler(async (req, res) => {
   res
     .status(200)
     .json(
-      new ApiResponse(200, "User profile retrieved successfully", userResponse)
+      new ApiResponse(200, "User profile retrieved successfully", userResponse),
     );
 });
 
