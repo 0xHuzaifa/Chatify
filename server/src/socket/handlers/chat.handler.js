@@ -59,7 +59,10 @@ const handleTyping = (io, socket) => {
 
     if (!chat) return;
 
-    socket.to(chatId).emit("typing", socket.user._id);
+    socket.to(chatId).emit("typing", {
+      chatId,
+      userId: socket.user._id?.toString(),
+    });
   });
 
   socket.on("stop_typing", async (chatId) => {
@@ -72,7 +75,10 @@ const handleTyping = (io, socket) => {
 
     if (!chat) return;
 
-    socket.to(chatId).emit("stop_typing", socket.user._id);
+    socket.to(chatId).emit("stop_typing", {
+      chatId,
+      userId: socket.user._id?.toString(),
+    });
   });
 };
 

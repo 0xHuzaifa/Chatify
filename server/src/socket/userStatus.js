@@ -6,6 +6,10 @@ const trackOnlineUsers = (io, socket) => {
   // 🔑 JOIN USER ROOM
   socket.join(userId);
 
+  // Send initial list of all online users to the newly connected client
+  const allOnlineUsers = Array.from(onlineUsers.keys());
+  socket.emit("online_users", allOnlineUsers);
+
   if (!onlineUsers.has(userId)) {
     onlineUsers.set(userId, new Set());
 
@@ -31,3 +35,6 @@ const trackOnlineUsers = (io, socket) => {
 export default trackOnlineUsers;
 
 export const isUserOnline = (userId) => onlineUsers.has(userId);
+export const getOnlineUsers = () => Array.from(onlineUsers.keys());
+export const getUserSocketIds = (userId) =>
+  Array.from(onlineUsers.get(String(userId)) || []);
