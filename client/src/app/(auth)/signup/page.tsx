@@ -1,20 +1,20 @@
 "use client"
 
 import type React from "react"
-
 import Link from "next/link"
 import { useState } from "react"
 import { useRouter } from "next/navigation"
+import { useRegister } from "@/queries/auth.queries"
 
 export default function SignUpPage() {
   const router = useRouter()
+  const { mutate: register, isPending: isLoading } = useRegister()
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
     password: "",
     confirmPassword: "",
   })
-  const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -40,16 +40,23 @@ export default function SignUpPage() {
       return
     }
 
-    if (formData.password.length < 6) {
-      setError("Password must be at least 6 characters")
-      return
-    }
-
-    setIsLoading(true)
-    setTimeout(() => {
-      setIsLoading(false)
-      router.push("/verify-code")
-    }, 1000)
+    register(
+      {
+        fullName: formData.fullName,
+        email: formData.email,
+        password: formData.password,
+      },
+      {
+        onSuccess: (res) => {
+          // Pass userId or email to verification page if needed
+          const userId = res.data.data._id
+          router.push(`/verification?userId=${userId}`)
+        },
+        onError: (err: any) => {
+          setError(err.response?.data?.message || "Registration failed")
+        },
+      }
+    )
   }
 
   return (

@@ -1,29 +1,36 @@
-"use client"
+"use client";
 
-import type React from "react"
-
-import { useEffect, useState } from "react"
-import { useRouter } from "next/navigation"
+import type React from "react";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { useGetProfile } from "@/queries/auth.queries";
+import { useAuthStore } from "@/store/auth.store";
+import useSocket from "@/hooks/useSocket";
 
 export default function ProtectedLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  const router = useRouter()
-  const [isAuthorized, setIsAuthorized] = useState(false)
-  const [isLoading, setIsLoading] = useState(true)
+  const router = useRouter();
+  const setUser = useAuthStore((state) => state.setUser);
+  const setIsAuthenticated = useAuthStore((state) => state.setIsAuthenticated);
+
+  // Initialize socket connection and event listeners
+  useSocket();
+
+  const { data: user, isLoading, isError } = useGetProfile();
 
   useEffect(() => {
-    // Simulate auth check
-    const authToken = localStorage.getItem("authToken")
-    if (!authToken) {
-      router.push("/login")
-    } else {
-      setIsAuthorized(true)
+    if (!isLoading) {
+      if (isError || !user) {
+        router.replace("/login");
+      } else {
+        setUser(user);
+        setIsAuthenticated(true);
+      }
     }
-    setIsLoading(false)
-  }, [router])
+  }, [user, isLoading, isError, router, setUser, setIsAuthenticated]);
 
   if (isLoading) {
     return (
@@ -32,12 +39,12 @@ export default function ProtectedLayout({
           <div className="w-12 h-12 border-4 border-(--color-bg-tertiary) border-t-(--color-primary) rounded-full"></div>
         </div>
       </div>
-    )
+    );
   }
 
-  if (!isAuthorized) {
-    return null
+  if (isError || !user) {
+    return null;
   }
 
-  return children
+  return children;
 }

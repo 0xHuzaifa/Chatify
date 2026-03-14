@@ -5,14 +5,15 @@ import type React from "react"
 import Link from "next/link"
 import { useState } from "react"
 import { useRouter } from "next/navigation"
+import { useLogin } from "@/queries/auth.queries"
 
 export default function LoginPage() {
   const router = useRouter()
+  const { mutate: login, isPending: isLoading } = useLogin()
   const [formData, setFormData] = useState({
     email: "",
     password: "",
   })
-  const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -33,12 +34,17 @@ export default function LoginPage() {
       return
     }
 
-    setIsLoading(true)
-    localStorage.setItem("authToken", "demo-token-" + Date.now())
-    setTimeout(() => {
-      setIsLoading(false)
-      router.push("/chat")
-    }, 1000)
+    login(
+      { identifier: formData.email, password: formData.password },
+      {
+        onSuccess: () => {
+          router.push("/chat")
+        },
+        onError: (err: any) => {
+          setError(err.response?.data?.message || "Invalid credentials")
+        },
+      }
+    )
   }
 
   return (
