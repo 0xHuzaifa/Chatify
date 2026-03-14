@@ -896,25 +896,28 @@ export const getCurrentUser = asyncHandler(async (req, res) => {
 // Get all users
 export const searchUsers = asyncHandler(async (req, res) => {
   const loggedInUser = req.user;
-  const search = req.query.search || " ";
+  const search = String(req.query.search ?? "").trim();
 
   if (!loggedInUser) {
     throw new ApiError(401, "User not authenticated");
   }
 
-  const searchQuery = search
-    ? {
-        $or: [
-          { email: { $regex: search, $options: "i" } },
-          { phone: { $regex: search, $options: "i" } },
-        ],
-      }
-    : {};
+  if (!search || search.length < 2) {
+    return res
+      .status(200)
+      .json(new ApiResponse(200, "users retrieved successfully", []));
+  }
 
   const users = await User.find({
     _id: { $ne: loggedInUser._id },
-    ...searchQuery,
-  });
+    $or: [
+      { fullName: { $regex: search, $options: "i" } },
+      { email: { $regex: search, $options: "i" } },
+      { phone: { $regex: search, $options: "i" } },
+    ],
+  })
+    .select("_id fullName email phone avatar")
+    .limit(10);
 
   return res
     .status(200)
