@@ -31,7 +31,7 @@ const fetchChatsService = async (userId) => {
   const chatsWithNames = chats.map((chat) => {
     let chatName = "Unknown";
 
-    if (chat.isGroup || chat.isGroupChat) {
+    if (chat.isGroup) {
       // For group chats, use the group name
       chatName = chat.groupName || "Group";
     } else {
@@ -52,6 +52,20 @@ const fetchChatsService = async (userId) => {
 };
 
 const accessOrCreateChatService = async (loggedInUser, userId, groupId) => {
+  const withChatName = (chat) => {
+    if (!chat) return chat;
+
+    if (chat.isGroup) {
+      return { ...chat, chatName: chat.groupName || "Group" };
+    }
+
+    const otherParticipant = chat.participants?.find(
+      (p) => String(p?._id) !== String(loggedInUser),
+    );
+
+    return { ...chat, chatName: otherParticipant?.fullName || "Unknown" };
+  };
+
   // --------------------
   // 1) Access GROUP CHAT
   // --------------------
@@ -67,9 +81,9 @@ const accessOrCreateChatService = async (loggedInUser, userId, groupId) => {
     if (!group) throw new ApiError(404, "Group chat not found");
 
     return {
-      success: 200,
+      status: 200,
       message: "Group chat fetched successfully",
-      data: group,
+      data: withChatName(group),
     };
   }
 
@@ -97,13 +111,13 @@ const accessOrCreateChatService = async (loggedInUser, userId, groupId) => {
     return {
       status: 200,
       message: "Chat fetched successfully",
-      data: chat,
+      data: withChatName(chat),
     };
   }
 
   const createChat = await Chat.create({
     participants: [loggedInUser, userId],
-    isGroupChat: false,
+    isGroup: false,
   });
 
   const newChat = await populateChat(Chat.findById(createChat._id)).lean();
@@ -111,7 +125,7 @@ const accessOrCreateChatService = async (loggedInUser, userId, groupId) => {
   return {
     status: 201,
     message: "Chat created successfully",
-    data: newChat,
+    data: withChatName(newChat),
   };
 };
 

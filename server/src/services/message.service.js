@@ -36,6 +36,7 @@ const getAllMessagesService = async (chatId, cursor, limit) => {
         contentType: 1,
         messageStatus: 1,
         createdAt: 1,
+        "sender._id": 1,
         "sender.fullName": 1,
         "sender.avatar": 1,
       },
