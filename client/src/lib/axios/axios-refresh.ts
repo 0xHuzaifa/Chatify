@@ -59,7 +59,8 @@ axiosInstance.interceptors.response.use(
         return axiosInstance(originalRequest);
       } catch (err) {
         processQueue(err, null);
-        authStore.logout(); // clear everything and redirect
+        authStore.resetAuth();
+        authStore.triggerForceLogout();
         return Promise.reject(err);
       } finally {
         isRefreshing = false;
