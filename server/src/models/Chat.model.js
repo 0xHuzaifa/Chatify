@@ -21,7 +21,7 @@ const chatSchema = new Schema(
       type: String,
       trim: true,
       required: function () {
-        return this.isGroupChat;
+        return this.isGroup;
       },
     },
 
@@ -52,7 +52,7 @@ const chatSchema = new Schema(
   { timestamps: true },
 );
 
-chatSchema.index({ participants: 1, isGroupChat: 1 });
+chatSchema.index({ participants: 1, isGroup: 1 });
 chatSchema.index({ "unreadCount.user": 1 });
 chatSchema.index({ lastMessage: 1 });
 chatSchema.index({ updatedAt: -1 });
