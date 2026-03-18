@@ -9,4 +9,6 @@ export const authApi = {
     api.post("/auth/resend-verification", payload),
   getProfile: () => api.get("/auth/me"),
   refreshToken: () => api.get("/auth/refresh-token"),
+  searchUsers: (search: string) =>
+    api.get("/auth/users", { params: { search } }),
 };
