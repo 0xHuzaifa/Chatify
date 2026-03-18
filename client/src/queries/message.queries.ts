@@ -4,7 +4,7 @@ import { useQuery, useMutation } from "@tanstack/react-query";
 export const useGetMessages = (
   chatId?: string | null,
   cursor?: string | null,
-  limit = 20
+  limit = 20,
 ) => {
   return useQuery({
     queryKey: ["messages", chatId, cursor, limit],
@@ -13,7 +13,7 @@ export const useGetMessages = (
       const res = await messageApi.getAllMessages(
         chatId as string,
         cursor,
-        limit
+        limit,
       );
       return res.data.data;
     },
@@ -23,6 +23,7 @@ export const useGetMessages = (
 export const useSendMessage = () => {
   return useMutation({
     mutationKey: ["send-message"],
-    mutationFn: (formData: FormData) => messageApi.sendMessage(formData),
+    mutationFn: (payload: { chatId: string; content: string }) =>
+      messageApi.sendMessage(payload),
   });
 };

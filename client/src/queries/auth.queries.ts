@@ -24,16 +24,65 @@ export const useLogout = () => {
     onSuccess: () => {
       useAuthStore.getState().resetAuth();
       useAuthStore.getState().triggerForceLogout();
-      document.cookie = `accessToken=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT`;
-      document.cookie = `refreshToken=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT`;
     },
 
     onError: () => {
       // Even if logout API fails, clear local auth
       useAuthStore.getState().resetAuth();
       useAuthStore.getState().triggerForceLogout();
-      document.cookie = `accessToken=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT`;
-      document.cookie = `refreshToken=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT`;
     },
+  });
+};
+
+// --------------------- GET PROFILE ---------------------
+export const useGetProfile = () => {
+  return useQuery({
+    queryKey: ["me"],
+    queryFn: authApi.getProfile,
+    select: (res) => res.data.data,
+    retry: false,
+  });
+};
+
+// --------------------- REGISTER ---------------------
+export const useRegister = () => {
+  return useMutation({
+    mutationFn: authApi.register,
+  });
+};
+
+// --------------------- VERIFY ---------------------
+export const useVerify = () => {
+  return useMutation({
+    mutationFn: authApi.verify,
+  });
+};
+
+// --------------------- RESEND VERIFICATION ---------------------
+export const useResendVerification = () => {
+  return useMutation({
+    mutationFn: authApi.resendVerification,
+  });
+};
+
+// --------------------- CURRENT USER ---------------------
+export const useGetCurrentUser = () => {
+  return useQuery({
+    queryKey: ["currentUser"],
+    queryFn: authApi.getProfile,
+    select: (res) => res.data.data,
+  });
+};
+
+// --------------------- SEARCH USERS ---------------------
+export const useSearchUsers = (search: string) => {
+  const normalized = search.trim();
+
+  return useQuery({
+    queryKey: ["search-users", normalized],
+    enabled: normalized.length >= 2,
+    queryFn: () => authApi.searchUsers(normalized),
+    select: (res) => res.data.data as any[],
+    staleTime: 10_000,
   });
 };
