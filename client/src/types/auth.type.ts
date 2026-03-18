@@ -13,9 +13,12 @@ interface User {
 interface AuthState {
   user: User | null;
   accessToken: string | null;
+  isAuthenticated: boolean;
 
   setUser: (user: User | null) => void;
   setAccessToken: (token: string | null) => void;
+  setIsAuthenticated: (status: boolean) => void;
+  triggerForceLogout: () => void;
   resetAuth: () => void;
 }
 
