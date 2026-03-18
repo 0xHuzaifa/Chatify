@@ -5,9 +5,11 @@ import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 export default function ChatHeader({
   name,
   avatar,
+  isOnline,
 }: {
   name: string;
   avatar: string;
+  isOnline?: boolean;
 }) {
   const getInitials = (fullName: string) => {
     const parts = fullName.trim().split(" ");
@@ -49,7 +51,7 @@ export default function ChatHeader({
             className="text-xs"
             style={{ color: "var(--color-text-tertiary)" }}
           >
-            Online
+            {isOnline ? "Online" : ""}
           </p>
         </div>
       </div>

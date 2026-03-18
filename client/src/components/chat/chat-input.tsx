@@ -1,15 +1,41 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { connectSocket, getSocket } from "@/lib/socket/socket";
 
-export default function ChatInput() {
+export default function ChatInput({ chatId }: { chatId?: string | null }) {
   const [message, setMessage] = useState("");
+  const stopTypingTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const handleSend = () => {
-    if (message.trim()) {
-      setMessage("");
-    }
-  };
+  const emitTyping = useCallback(() => {
+    if (!chatId) return;
+
+    const socket = getSocket() ?? connectSocket();
+    socket.emit("typing", chatId);
+
+    if (stopTypingTimer.current) clearTimeout(stopTypingTimer.current);
+    stopTypingTimer.current = setTimeout(() => {
+      socket.emit("stop_typing", chatId);
+    }, 800);
+  }, [chatId]);
+
+  useEffect(() => {
+    return () => {
+      if (stopTypingTimer.current) clearTimeout(stopTypingTimer.current);
+    };
+  }, []);
+
+  const handleSend = useCallback(() => {
+    if (!chatId) return;
+
+    const content = message.trim();
+    if (!content) return;
+
+    const socket = getSocket() ?? connectSocket();
+    socket.emit("send_message", { chatId, content });
+    socket.emit("stop_typing", chatId);
+    setMessage("");
+  }, [chatId, message]);
 
   return (
     <div
@@ -26,6 +52,7 @@ export default function ChatInput() {
             backgroundColor: "var(--color-bg-tertiary)",
             color: "var(--color-text-secondary)",
           }}
+          disabled={!chatId}
         >
           ➕
         </button>
@@ -34,8 +61,14 @@ export default function ChatInput() {
           type="text"
           placeholder="Type a message..."
           value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          onKeyPress={(e) => e.key === "Enter" && handleSend()}
+          disabled={!chatId}
+          onChange={(e) => {
+            setMessage(e.target.value);
+            if (e.target.value.trim()) emitTyping();
+          }}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") handleSend();
+          }}
           className="flex-1 px-4 py-3 border rounded-lg focus:outline-none focus:ring-1 transition"
           style={{
             backgroundColor: "var(--color-bg-tertiary)",
@@ -54,7 +87,7 @@ export default function ChatInput() {
 
         <button
           onClick={handleSend}
-          disabled={!message.trim()}
+          disabled={!chatId || !message.trim()}
           className="w-10 h-10 rounded-lg transition flex items-center justify-center text-white disabled:opacity-50 disabled:cursor-not-allowed shrink-0 bg-black/80"
         >
           ✈️
